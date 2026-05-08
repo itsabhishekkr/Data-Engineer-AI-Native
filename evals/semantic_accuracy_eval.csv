@@ -1,0 +1,11 @@
+record_id,title,description,category,type,expected_verdict
+evt_001,ABC raises Series A funding,ABC raised 20 million in Series A funding,funding,event,pass
+evt_002,CEO resigns from ABC,The CEO of ABC stepped down,funding,event,fail
+evt_003,XYZ expands to Singapore,XYZ opened a new office in Singapore,market_expansion,event,pass
+evt_004,New product launched,Company launched AI analytics tool,product_launch,event,pass
+evt_005,Company appoints CFO,ABC appointed a new Chief Financial Officer,executive_change,event,pass
+evt_006,ABC acquired by DEF,DEF acquired ABC for 50 million,merger,event,pass
+evt_007,Funding announcement,Company hired new CTO,funding,event,fail
+evt_008,Market expansion,CEO resigned yesterday,market_expansion,event,fail
+evt_009,DEF launches platform,DEF launched cloud analytics platform,product_launch,event,pass
+evt_010,ABC files bankruptcy,ABC filed for bankruptcy today,bankruptcy,event,pass

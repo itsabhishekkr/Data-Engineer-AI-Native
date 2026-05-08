@@ -1,0 +1,11 @@
+record_id,title,description,company_name,person_name,entity_name,expected_verdict
+evt_001,ABC raises funding,ABC raised Series A funding,ABC,,ABC,pass
+evt_002,XYZ CEO resigns,The CEO of XYZ resigned,ABC,,ABC,fail
+evt_003,Jane Smith joins ABC,Jane Smith joined ABC as CFO,ABC,Jane Smith,ABC,pass
+evt_004,DEF opens office,DEF opened new SEA office,DEF,,DEF,pass
+evt_005,LMN acquisition,LMN acquired OPQ,ABC,,ABC,fail
+evt_006,Google launches Gemini,Google released Gemini AI,Google,,Google,pass
+evt_007,Apple hires CTO,Apple appointed a new CTO,Apple,,Apple,pass
+evt_008,Tesla earnings report,Tesla published quarterly earnings,Amazon,,Amazon,fail
+evt_009,Microsoft expands cloud business,Microsoft opened new cloud region,Microsoft,,Microsoft,pass
+evt_010,Meta acquires startup,Meta acquired AI startup,Netflix,,Netflix,fail

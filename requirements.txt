@@ -1,0 +1,7 @@
+pandas
+numpy
+pydantic
+scikit-learn
+python-dotenv
+openai
+streamlit

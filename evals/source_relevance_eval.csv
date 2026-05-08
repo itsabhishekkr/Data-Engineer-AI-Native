@@ -1,0 +1,11 @@
+record_id,title,description,source_url,url,expected_verdict
+evt_001,ABC raises funding,ABC raised Series A funding,https://example.com/news/abc-funding,,pass
+evt_002,Buy our product,Marketing landing page for product,https://example.com/product,,fail
+evt_003,CEO resigns,News report about CEO resignation,https://example.com/news/ceo-resigns,,pass
+evt_004,Homepage,Generic company homepage,https://example.com,,fail
+evt_005,XYZ launches product,Article about product launch,https://example.com/news/product-launch,,pass
+evt_006,Company press release,Promotional marketing page,https://example.com/promo,,fail
+evt_007,Market expansion news,Company opened Singapore office,https://example.com/news/sea-expansion,,pass
+evt_008,Newsletter signup,Subscribe to our newsletter,https://example.com/signup,,fail
+evt_009,Funding article,Independent funding coverage,https://example.com/news/funding-round,,pass
+evt_010,Random blog post,Opinion blog unrelated to event,https://example.com/blog/random,,fail
